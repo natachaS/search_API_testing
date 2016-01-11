@@ -1,0 +1,16 @@
+{
+  "name": "search_api",
+  "version": "1.0.0",
+  "description": "An optimized search API with tests",
+  "main": "search.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Natacha Springer",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.4.1",
+    "diacritics": "^1.2.3",
+    "mocha": "^2.3.4"
+  }
+}
