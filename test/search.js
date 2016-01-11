@@ -19,7 +19,7 @@ describe('The Search API', function () {
     expect(search('aDelE')).to.eql(['Adele']);
   });
 
-  // If no match is found, the search should return an array containing the null object
+  // If no match is found, the search should return an empty array
   it('returns an empty array if no match is found', function () {
     expect(search('Natacha Springer')).to.eql([ ]);
   });
